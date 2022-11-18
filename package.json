@@ -1,0 +1,26 @@
+{
+    "name": "weather",
+    "version": "1.0.0",
+    "description": "cli for getting weather",
+    "main": "index.js",
+    "bin": "./index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node.js",
+        "cli",
+        "weather"
+    ],
+    "author": "Raul Khairzamanov",
+    "license": "ISC",
+    "homepage": "https://github.com/raufauf22",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raufauf22"
+    },
+    "bugs": {
+        "email": "Sunshine2002h@gmail.com",
+        "url": "https://github.com/raufauf22"
+    }
+}
