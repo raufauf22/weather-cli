@@ -18,10 +18,11 @@ const printHelp = () => {
     console.log(
         dedent(
             `${chalk.bgCyan('HELP')} 
-            без параметров - вывод погоды
-            -h для вывода помощи
-            -t [api_key] для сохранения токена
-            -s [city] для установки города`
+            npm run
+                start - for getting weather
+                help - for getting help
+                save [city] - for save city in centralized storage
+                token [api_key] - for save token in centralized storage`
         )
     )
 }
