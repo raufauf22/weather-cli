@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { getArgs } from './helpers/args.helper.js'
 import { getWeather } from './services/api.service.js'
 import { printError, printHelp, printSuccess, printWeather } from './services/log.service.js'

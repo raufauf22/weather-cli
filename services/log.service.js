@@ -19,10 +19,10 @@ const printHelp = () => {
         dedent(
             `${chalk.bgCyan('HELP')} 
             npm run
-                help - for getting help
-                token [api_key] - for save token in centralized storage
-                save [city] - for save city in centralized storage
-                start - for getting weather`
+                    help - for getting help
+                    token [api_key] - for save token in centralized storage
+                    save [city] - for save city in centralized storage
+                    start - for getting weather`
         )
     )
 }

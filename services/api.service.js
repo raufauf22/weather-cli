@@ -4,8 +4,7 @@ import { getKeyValue, TOKEN_DESC } from './storage.service.js'
 
 const getWeather = (city) => {
     return new Promise(async (resolve, reject) => {
-        let token
-        token = await getKeyValue(TOKEN_DESC.token)
+        const token = await getKeyValue(TOKEN_DESC.token)
         if (token === undefined) {
             throw new Error('API key not transferred, pls enter -t [api_key]')
         }
@@ -15,7 +14,6 @@ const getWeather = (city) => {
         url.searchParams.append('q', city)
         url.searchParams.append('appid', token)
         url.searchParams.append('units', 'metric')
-
 
         https.get(url, (res) => {
             let data
